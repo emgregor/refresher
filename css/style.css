@@ -22,8 +22,20 @@ body {
 #introphoto {
     position: relative;
     top: 250px;
-    right: 0px;
+    margin-right: 150px;
+    width: 50%;
 
+}
+
+#content {
+    position: absolute;
+    top: 60px;
+}
+
+#fadein {
+    position: absolute;
+    margin-left: 150px;
+    width: 45%;
 }
 
 #fadein h1 {
@@ -42,6 +54,10 @@ body {
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
     -o-animation: fadein 4s; /* Opera */
+}
+
+#fadein p.class {
+    animation-delay:4s;
 }
 
 @keyframes fadein {
