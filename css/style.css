@@ -1,11 +1,33 @@
 h1 {
-    font-family: 'josefin sans';
-    font-size: 22px;}
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;}
 body {
-    font-family: 'josefin sans';
-    font-size: 12px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #edebeb;
 }
-#fadein p {
+
+div.nav {position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+
+}
+
+div.content {
+    position: relative;
+}
+
+div.introphoto {
+    position: absolute;
+    top: 250px;
+    right: 150px;
+
+}
+
+#fadein p, h1 {
     margin-top: 25px;
     font-size: 21px;
     text-align: center;
