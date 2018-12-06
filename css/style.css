@@ -3,7 +3,8 @@ h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 60px;   
-    text-align: left;}
+    text-align: left;
+    margin-bottom: 20px;}
 
 body {
     font-family: brandon-grotesque, sans-serif;
@@ -28,20 +29,17 @@ p {
     height: 50px;
 }
 
-#nav a {
+.nav a:link, .nav a:visited {
     text-transform: uppercase;
     font-size: 12px;
 }
 
 #introphoto {
-    position: relative;
+    float: right;
     margin-right: 150px;
-    width: 50%;
+    ;
 }
 
-img.intro {
-    float: right;
-}
 
 #content {
     position: fixed;
