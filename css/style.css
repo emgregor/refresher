@@ -44,8 +44,8 @@ p {
 
 #introphoto {
     position: absolute;
-    right: 25px;
-    top: -200px;
+    right: 0px;
+    top: -500px;
 }
 
 
@@ -61,10 +61,10 @@ p {
 }
 
 .first-text {
-    -moz-animation: fadein 3s ease-in 7s forwards; /* Firefox */
-    -webkit-animation: fadein 3s ease-in 7s forwards; /* Safari and Chrome */
-    -o-animation: fadein 3s ease-in 7s forwards; /* Opera */
-    animation: fadein 3s ease-in 7s forwards;
+    -moz-animation: fadein 3s ease-in 7s both; /* Firefox */
+    -webkit-animation: fadein 3s ease-in 7s both; /* Safari and Chrome */
+    -o-animation: fadein 3s ease-in 7s both; /* Opera */
+    animation: fadein 3s ease-in 7s both;
 }
 
 .second-text {
