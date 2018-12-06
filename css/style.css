@@ -6,7 +6,8 @@ h1 {
     text-align: left;
     margin-bottom: 0px;
     margin-top: 0px;
-    letter-spacing: 3px;}
+    letter-spacing: 3px;
+    color: lightpink;}
 
 body {
     font-family: brandon-grotesque, sans-serif;
@@ -48,7 +49,7 @@ p {
 #introphoto {
     position: absolute;
     right: 0px;
-    top: -100px;
+    top: 0px;
 }
 
 
@@ -59,24 +60,24 @@ p {
 #fadein {
     position: relative;
     margin-left: 120px;
+    margin-top: 400px;
     width: 45%;
 }
 
 .first-text {
     opacity: 0;
-    -moz-animation: fadein 1s ease-in 4s both; /* Firefox */
-    -webkit-animation: fadein 1s ease-in 4s both; /* Safari and Chrome */
-    -o-animation: fadein 1s ease-in 4s both; /* Opera */
-    animation: fadein 1s ease-in 4s both;
+    -moz-animation: fadein 2s ease-in 0s both; /* Firefox */
+    -webkit-animation: fadein 2s ease-in 0s both; /* Safari and Chrome */
+    -o-animation: fadein 2s ease-in 0s both; /* Opera */
+    animation: fadein 2s ease-in 0s both;
 }
 
 .second-text {
     opacity: 0;
-    -moz-animation: fadein 2s ease-in 5s both; /* Firefox */
-    -webkit-animation: fadein 2s ease-in 5s both; /* Safari and Chrome */
-    -o-animation: fadein 2s ease-in 5s both; /* Opera */
-    animation: fadein 2s ease-in 5s both;
-  animation-delay: 2s;
+    -moz-animation: fadein 2s ease-in 3s both; /* Firefox */
+    -webkit-animation: fadein 2s ease-in 3s both; /* Safari and Chrome */
+    -o-animation: fadein 2s ease-in 3s both; /* Opera */
+    animation: fadein 2s ease-in 3s both;
     margin-top: 0;}
 
 
