@@ -45,7 +45,7 @@ p {
 #introphoto {
     position: absolute;
     right: 0px;
-    top: -500px;
+    top: -300px;
 }
 
 
@@ -61,20 +61,21 @@ p {
 }
 
 .first-text {
-    -moz-animation: fadein 3s ease-in 7s both; /* Firefox */
-    -webkit-animation: fadein 3s ease-in 7s both; /* Safari and Chrome */
-    -o-animation: fadein 3s ease-in 7s both; /* Opera */
-    animation: fadein 3s ease-in 7s both;
+    opacity: 0;
+    -moz-animation: fadein 0s ease-in 2s both; /* Firefox */
+    -webkit-animation: fadein 0s ease-in 2s both; /* Safari and Chrome */
+    -o-animation: fadein 0s ease-in 2s both; /* Opera */
+    animation: fadein 0s ease-in 2s both;
 }
 
 .second-text {
     opacity: 0;
-    -moz-animation: fadein 3s ease-in 7s forwards; /* Firefox */
-    -webkit-animation: fadein 3s ease-in 7s forwards; /* Safari and Chrome */
-    -o-animation: fadein 3s ease-in 7s forwards; /* Opera */
-    animation: fadein 3s ease-in 7s forwards;
+    -moz-animation: fadein 2s ease-in 5s both; /* Firefox */
+    -webkit-animation: fadein 2s ease-in 5s both; /* Safari and Chrome */
+    -o-animation: fadein 2s ease-in 5s both; /* Opera */
+    animation: fadein 2s ease-in 5s both;
   animation-delay: 2s;
-    margin-top: 10;}
+    margin-top: 0;}
 
 
 @keyframes fadein {
