@@ -7,7 +7,7 @@ h1 {
     margin-bottom: 0px;
     margin-top: 0px;
     letter-spacing: 3px;
-    color: lightpink;}
+}
 
 body {
     font-family: brandon-grotesque, sans-serif;
@@ -49,18 +49,16 @@ p {
 #introphoto {
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 200px;
+    width: 50%;
+    height: 40%;
 }
 
-
-#content {
-    position: fixed;
-}
 
 #fadein {
     position: relative;
-    margin-left: 120px;
-    margin-top: 400px;
+    margin-left: 100px;
+    margin-top: 300px;
     width: 45%;
 }
 
@@ -74,10 +72,10 @@ p {
 
 .second-text {
     opacity: 0;
-    -moz-animation: fadein 2s ease-in 3s both; /* Firefox */
-    -webkit-animation: fadein 2s ease-in 3s both; /* Safari and Chrome */
-    -o-animation: fadein 2s ease-in 3s both; /* Opera */
-    animation: fadein 2s ease-in 3s both;
+    -moz-animation: fadein 2s ease-in 1s both; /* Firefox */
+    -webkit-animation: fadein 2s ease-in 1s both; /* Safari and Chrome */
+    -o-animation: fadein 2s ease-in 1s both; /* Opera */
+    animation: fadein 2s ease-in 1s both;
     margin-top: 0;}
 
 
