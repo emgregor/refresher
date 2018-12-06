@@ -5,7 +5,7 @@ h1 {
     font-size: 40px;   
     text-align: left;
     margin-bottom: 0px;
-    letter-spacing: 4px;}
+    letter-spacing: 3px;}
 
 body {
     font-family: brandon-grotesque, sans-serif;
@@ -33,6 +33,7 @@ p {
 .nav a:link, .nav a:visited {
     text-transform: uppercase;
     font-size: 12px;
+    font-weight: 700;
 }
 
 #introphoto {
@@ -54,45 +55,18 @@ p {
 
 .first-text {
   opacity: 0;
-  animation-name: first;
+  animation-name: fadein;
   animation-duration: 2s;
-  color: black;
 }
 
 .second-text {
     opacity: 0;
-  animation-name: second;
+  animation-name: fadein;
+  animation-delay: 2s;
   animation-duration: 3s;
-  color: black;
 }
 
-.animation-box {
-  width: 75%;
-  height: 27.5rem;
-  background-color: blue;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
-
-.animation-container {
-  width: 1000rem;
-  height: 30rem;
-}
-
-@keyframes first {
-  0% {
-    position: absolute;
-    top: -3rem;
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes second {
+@keyframes fadein {
   0% {
     opacity: 0;
   }
@@ -100,5 +74,4 @@ p {
   100% {
     opacity: 1;
   }
-  
 }
