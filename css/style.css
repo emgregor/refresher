@@ -19,14 +19,10 @@ body {
 
 }
 
-#content {
-    position: relative;
-}
-
 #introphoto {
-    position: absolute;
+    position: relative;
     top: 250px;
-    right: 150px;
+    right: 0px;
 
 }
 
