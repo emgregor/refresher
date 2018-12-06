@@ -36,8 +36,6 @@ p {
 
 #introphoto {
     float: right;
-    margin-right: 150px;
-    ;
 }
 
 
@@ -49,7 +47,7 @@ p {
 #fadein {
     position: relative;
     margin-left: 150px;
-    width: 45%;
+    width: 40%;
 }
 
 #fadein h1 {font-family: brandon-grotesque, sans-serif;
