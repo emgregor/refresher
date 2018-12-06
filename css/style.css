@@ -35,11 +35,17 @@ p {
     font-size: 12px;
     font-weight: 700;
     color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #aaccbb;
 }
 
 #introphoto {
     position: absolute;
     right: 25px;
+    top: -200px;
 }
 
 
@@ -55,17 +61,21 @@ p {
 }
 
 .first-text {
-  opacity: 0;
-  animation-name: fadein;
-  animation-duration: 2s;
+    -moz-animation: fadein 3s ease-in 7s forwards; /* Firefox */
+    -webkit-animation: fadein 3s ease-in 7s forwards; /* Safari and Chrome */
+    -o-animation: fadein 3s ease-in 7s forwards; /* Opera */
+    animation: fadein 3s ease-in 7s forwards;
 }
 
 .second-text {
     opacity: 0;
-  animation-name: fadein;
+    -moz-animation: fadein 3s ease-in 7s forwards; /* Firefox */
+    -webkit-animation: fadein 3s ease-in 7s forwards; /* Safari and Chrome */
+    -o-animation: fadein 3s ease-in 7s forwards; /* Opera */
+    animation: fadein 3s ease-in 7s forwards;
   animation-delay: 2s;
-  animation-duration: 3s;
-}
+    margin-top: 10;}
+
 
 @keyframes fadein {
   0% {
