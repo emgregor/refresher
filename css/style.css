@@ -46,7 +46,10 @@ p {
     width: 45%;
 }
 
-#fadein h1 {
+#fadein h1 {font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;   
     text-align: left;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
