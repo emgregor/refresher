@@ -21,18 +21,22 @@ p {
     text-align: left;
 }
 
+
 #nav {position: fixed;
     top: 0;
     right: 0;
     height: 50px;
+}
 
+#nav a {
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 #introphoto {
     position: relative;
     margin-right: 150px;
     width: 50%;
-
 }
 
 img.intro {
