@@ -35,7 +35,8 @@ p {
 }
 
 #introphoto {
-    margin-right: 0px;
+    position: fixed;
+    margin-right: 25px;
 }
 
 
