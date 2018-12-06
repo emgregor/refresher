@@ -35,7 +35,7 @@ p {
 }
 
 #introphoto {
-    float: right;
+    margin-right: 0px;
 }
 
 
@@ -46,7 +46,7 @@ p {
 
 #fadein {
     position: relative;
-    margin-left: 150px;
+    margin-left: 120px;
     width: 40%;
 }
 
@@ -69,9 +69,10 @@ p {
     -o-animation: fadein 4s; /* Opera */
 }
 
-#fadein p.class {
+#fadein p.delay {
     animation-delay:4s;
-text-align: left;}
+    text-align: left;
+    font-color: #666666;}
 
 @keyframes fadein {
     from {
