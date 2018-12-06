@@ -1,3 +1,11 @@
+body {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #edebeb;
+}
+
 h1 {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 700;
@@ -9,13 +17,9 @@ h1 {
     letter-spacing: 3px;
 }
 
-body {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    background-color: #edebeb;
-}
+h2 {
+    font-size: 24px;
+    font-weight: 400;}
 
 p {
     font-family: brandon-grotesque, sans-serif;
@@ -47,19 +51,21 @@ p {
 }
 
 #introphoto {
-    position: absolute;
-    right: 0px;
-    margin-top: 200px;
+    float: right;
     width: 50%;
     height: 40%;
-}
+    margin-top: 100px;}
 
 
 #fadein {
-    position: relative;
-    margin-left: 100px;
-    margin-top: 300px;
-    width: 45%;
+    float: left;
+    width: 40%;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.wrapper {
+    top: 60px;
 }
 
 .first-text {
