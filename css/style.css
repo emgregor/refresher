@@ -2,9 +2,10 @@ h1 {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 60px;   
+    font-size: 40px;   
     text-align: left;
-    margin-bottom: 20px;}
+    margin-bottom: 0px;
+    letter-spacing: 4px;}
 
 body {
     font-family: brandon-grotesque, sans-serif;
@@ -48,7 +49,7 @@ p {
 #fadein {
     position: relative;
     margin-left: 120px;
-    width: 40%;
+    width: 45%;
 }
 
 #fadein h1 {font-family: brandon-grotesque, sans-serif;
@@ -71,9 +72,9 @@ p {
 }
 
 #fadein p.delay {
-    animation-delay:4s;
+    animation-delay: 2s;
     text-align: left;
-    font-color: #666666;}
+    letter-spacing: 2px;}
 
 @keyframes fadein {
     from {
