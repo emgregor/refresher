@@ -1,8 +1,8 @@
 body {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima-nova, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #edebeb;
 }
 
@@ -18,24 +18,43 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 22px;
     font-weight: 400;}
 
-p {
+h3 {
     font-family: brandon-grotesque, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    text-align: left;
-    margin-top: 0px;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 0.5;
     margin-bottom: 0px;
 }
 
+h4 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    line-height: 1;
+}
 
-#nav {position: fixed;
-    top: 0;
-    right: 0;
-    height: 50px;
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;}
+
+
+.nav {position: fixed;
+    float: right;
+    top: 0px;
+    padding-top: 2px;
+    height: 23px;
+    background-color: #edebeb;
+    width: 100%;
 }
 
 .nav a:link, .nav a:visited {
@@ -50,25 +69,121 @@ p {
     color: #aaccbb;
 }
 
-#introphoto {
+#introphoto {position: relative;
     float: right;
     width: 50%;
-    height: 40%;
-    margin-top: 100px;}
-
-
-#fadein {
-    float: left;
-    width: 40%;
-    padding-left: 100px;
-    padding-top: 200px;
+    height: auto;
+    margin-top: 100px;
+    overflow: hidden;
 }
 
-.wrapper {
-    top: 60px;
+
+#intro {position: relative;
+    float: left;
+    width: 80%;
+    padding-left: 150px;
+    padding-top: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+.imgfloat {
+    float: right;
+    padding-right: 30px;
+    right: 50px;
+}
+
+.imgleft {
+    float: left;
+    padding-top: 25px;
+    padding-right: 20px;
+    width: 45%;
+}
+
+.imgleft img {
+    width: 100%;
+    padding-right: 0px;
+}
+
+.imgright {
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+    width: 45%;
+}
+
+.imgright img {
+    width: 100%;
+    padding-right: 0px;
+}
+
+.exptext {
+    float: right;
+    width: 50%;}
+
+.skillstext {
+    float: left;
+    width: 50%;}
+
+.divider {
+    width: 95%;
+}
+
+.column {
+    float: left;
+    padding: 0px;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 18%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+#wrapper1 {
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+    z-index: -1;}
+
+#wrapper2 {
+    position: relative;
+    top: 0px;
+}
+
+#divider {position: relative;
+   padding-left: 50px;
+   top: 100px;
+}
+
+#experience {position: relative;
+   padding-left: 40px;
+   padding-right: 40px;
+   top: 100px;
+}
+
+#skills {position: relative;
+   padding-left: 40px;
+   padding-right: 40px;
+   top: 100px;
 }
 
 .first-text {
+    padding-top: 100px;
     opacity: 0;
     -moz-animation: fadein 2s ease-in 0s both; /* Firefox */
     -webkit-animation: fadein 2s ease-in 0s both; /* Safari and Chrome */
@@ -77,11 +192,12 @@ p {
 }
 
 .second-text {
+    width: 45%;
     opacity: 0;
-    -moz-animation: fadein 2s ease-in 1s both; /* Firefox */
-    -webkit-animation: fadein 2s ease-in 1s both; /* Safari and Chrome */
-    -o-animation: fadein 2s ease-in 1s both; /* Opera */
-    animation: fadein 2s ease-in 1s both;
+    -moz-animation: fadein 2s ease-in 2s both; /* Firefox */
+    -webkit-animation: fadein 2s ease-in 2s both; /* Safari and Chrome */
+    -o-animation: fadein 2s ease-in 2s both; /* Opera */
+    animation: fadein 2s ease-in 2s both;
     margin-top: 0;}
 
 
