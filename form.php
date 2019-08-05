@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, intitial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="form-style.css">
+  <title>Wanted</title>
+</head>
+<body>
+  <form action="" method="post">
+    <div class="form-field">
+      <input type="text" class="text" name="first-name" placeholder="First name" required>
+    </div>
+    <div class="form-field">
+      <input type="text" class="text" name="last-name" placeholder="Last name" required>
+    </div>
+    <div class="form-field">
+      <input type="email" class="text" name="email" placeholder="Email" required>
+    </div>
+    <div class="form-field">
+      <button class="button">Submit</button>
+    </div>
+  </form>
+  
+<script type="text/javascript" src="https://wantedtest.formstack.com/forms/js.php/wanted_form"></script><noscript><a href="https://wantedtest.formstack.com/forms/wanted_form" title="Online Form">Online Form - Wanted Form</a></noscript><div style="text-align:right; font-size:x-small;"><a href="http://www.formstack.com?utm_source=jsembed&utm_medium=product&utm_campaign=product+branding&fa=h,3541877" title="Powered by Formstack">Powered by Formstack</a></div>
+</body>
+</html>
