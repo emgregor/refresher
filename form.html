@@ -8,11 +8,7 @@
   
   <style type="text/css">
     body {
-      background-repeat: no-repeat;
       background-color: #ffffff;
-      background-position: center;
-      background-size: cover;
-      height: 100%;
       font-family: 'Josefin Sans', sans-serif;
       color: #ffffff;
     }
@@ -52,6 +48,7 @@
       font-size: 14px;
       border: 2px solid #ffffff;
       border-radius: 5px;
+      font-family: 'Josefin Sans', sans-serif;
     }
     ::-webkit-input-placeholder { /* Edge */
       color: #ffffff;
@@ -70,8 +67,15 @@
       width: 85%;
     }
     div.container {
-      width: 480px;
+      margin: auto;
+      width: 375px;
+      height: 667px;
       background-image: url('http://i68.tinypic.com/34hc13l.jpg');
+      background-repeat: no-repeat;
+      background-color: #ffffff;
+      background-position: center;
+      background-size: cover;
+      height: 100%;
     }
     input[type="checkbox"] {
       display: inline-block;
@@ -110,11 +114,11 @@
       <input type="email" class="text" name="email" placeholder="Email" required>
     </div>
     <div class="form-field">
-      <button class="button">Submit</button>
-    </div>
-    <div class="form-field">
       <input type="checkbox" name="rules" value="read-agree"> I have read and agree to the contest rules.<br>
       <input type="checkbox" name="newsletter" value="newsletter-y"> I accept to receive news from Azzaro. I can unsubscribe at any time.<br>
+     <div class="form-field">
+      <button class="button">Submit</button>
+    </div>
     </div>
   </form>
   </div>
