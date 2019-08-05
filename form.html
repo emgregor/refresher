@@ -18,7 +18,7 @@
       text-transform: uppercase;
       padding-top: 40px;
     }
-    h2 {
+    p {
       font-size: 16px;
       font-weight: 300;
       width: 250px;
@@ -70,7 +70,7 @@
     
     div.form {
       margin: auto;
-      width: 85%;
+      width: 75%;
     }
     div.container {
       margin: auto;
@@ -97,7 +97,12 @@
     span.label {
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 400;
-      font-size: 10px;
+      font-size: 12px;
+      line-height: 1;
+    }
+    div.form {
+      position: relative;
+      top: 100px;
     }
   </style>
   
@@ -107,28 +112,18 @@
   <div class="copy">
     <center>
     <h1>Contest</h1>
-    <h2>Take a chance to win 1 of 50 bottles of the new fragrance</h2>
+    <p>Take a chance to win 1 of 50 bottles of the new fragrance</p>
     <img src="http://i64.tinypic.com/8xn9sg.png" style="width: 175px";>
     </center>
   </div>
   <div class="form">
   <form action="https://getform.io/f/007e404c-ce46-4969-886a-1723e61f300c" method="post">
-    <div class="form-field">
       <input type="text" class="text" name="first-name" placeholder="First name" required>
-    </div>
-    <div class="form-field">
       <input type="text" class="text" name="last-name" placeholder="Last name" required>
-    </div>
-    <div class="form-field">
       <input type="email" class="text" name="email" placeholder="Email" required>
-    </div>
-    <div class="form-field">
       <input type="checkbox" name="rules" value="read-agree"><span class="label"> I have read and agree to the contest rules.</span><br>
       <input type="checkbox" name="newsletter" value="newsletter-y"><span class="label"> I accept to receive news from Azzaro. I can unsubscribe at any time.</span><br><br>
-     <div class="form-field">
       <button class="button">Submit</button>
-    </div>
-    </div>
   </form>
   </div>
   </div>
