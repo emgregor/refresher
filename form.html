@@ -41,6 +41,7 @@
     }
     button {
       margin-top: 40px;
+      margin-bottom: 40px;
       background-color: rgba(0,0,0,0.1);
       border: none;
       color: #ffffff;
@@ -54,14 +55,17 @@
     }
     ::-webkit-input-placeholder { /* Edge */
       color: #ffffff;
+      font-weight: 300;
     }
 
     :-ms-input-placeholder { /* Internet Explorer 10-11 */
       color: #ffffff;
+      font-weight: 300;
     }
 
     ::placeholder {
       color: #ffffff;
+      font-weight: 300;
     }
     
     div.form {
@@ -71,7 +75,7 @@
     div.container {
       margin: auto;
       width: 375px;
-      height: 667px;
+      height: 700px;
       background-image: url('http://i68.tinypic.com/34hc13l.jpg');
       background-repeat: no-repeat;
       background-color: #ffffff;
@@ -89,6 +93,8 @@
       display: inline-block;
       width: 200px;
       word-break: break-all; 
+    }
+    span.label {
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 300;
       font-size: 8px;
@@ -117,8 +123,8 @@
       <input type="email" class="text" name="email" placeholder="Email" required>
     </div>
     <div class="form-field">
-      <input type="checkbox" name="rules" value="read-agree"> I have read and agree to the contest rules.<br>
-      <input type="checkbox" name="newsletter" value="newsletter-y"> I accept to receive news from Azzaro. I can unsubscribe at any time.<br><br>
+      <input type="checkbox" name="rules" value="read-agree"><span class="label"> I have read and agree to the contest rules.</span><br>
+      <input type="checkbox" name="newsletter" value="newsletter-y"><span class="label"> I accept to receive news from Azzaro. I can unsubscribe at any time.</span><br><br>
      <div class="form-field">
       <button class="button">Submit</button>
     </div>
