@@ -48,7 +48,7 @@
     }
     button {
       margin-top: 20px;
-      background-color: rgba(0,0,0,0.2);
+      background-color: rgba(255,255,255,0.2);
       border: none;
       color: #ffffff;
       padding: 10px 10px 8px 10px;
@@ -74,7 +74,8 @@
     }
     
     div.form {
-      margin: auto;
+      margin-right: auto;
+      margin-left: auto;
       width: 75%;
     }
     input[type="checkbox"] {
@@ -90,8 +91,8 @@
     }
     span.label {
       font-family: 'Josefin Sans', sans-serif;
-      font-weight: 400;
-      font-size: 12px;
+      font-weight: 300;
+      font-size: 13px;
       line-height: 1;
     }
     div.form {
@@ -104,13 +105,19 @@
       border-style: solid;
       width: 50%;
     }
+    
+    @media (max-width: 479px) {
+      body {
+        font-size: 16px;
+      }
+    }
   </style>
   
 </head>
 <body>
   <div class="copy">
     <center>
-    <img src="http://i66.tinypic.com/2n9e553.png" style="width: 175px; position: relative; top: 10px;">
+    <img src="http://i66.tinypic.com/2n9e553.png" style="width: 125px; position: relative; top: 10px;">
     <hr>
     <h1>Contest</h1>
     <p>Take a chance to win 1 of 50 bottles of the new fragrance</p>
