@@ -29,12 +29,14 @@
       font-weight: 700;
       text-transform: uppercase;
       margin: 0 0 0 0;
+      color: #ffffff;
     }
     p {
       font-size: 16px;
       font-weight: 400;
       width: 250px;
       margin-top: 10px;
+      color: #ffffff;
     }
     a {
       font-family: futura-pt, sans-serif;
@@ -49,17 +51,21 @@
     div.copy {
       height: 100vh;
     }
-    div.enter, div.enter a {
+    div.enter {
       padding: 8px 12px 8px 12px;
-      border: 2px solid #ffffff;
+      border: 1px solid #ffffff;
       background-color: rgba(0,0,0,0.2);
+      margin-top: 50px;
+    }
+    div.enter a {
       text-transform: uppercase;
       font-size: 20px;
       font-weight: 700;
-    }
+      text-decoration: none;
+   }      
     div.form-container {
       position: relative;
-      width: 100%;
+      min-width: 100vw;
       height: 100vh;
       background-color: #F7F7F7;
       padding-top: 50px;
@@ -94,7 +100,7 @@
       border: 1px solid #A7813A;
       border-radius: 5px;
       color: #A7813A;
-      font-size: 14px;
+      font-size: 16px;
       font-family: futura-pt, sans-serif;
     }
     button {
@@ -147,8 +153,8 @@
 /* Create a custom radio button */
 .checkmark {
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 0;
+  left: 0;
   height: 12px;
   width: 12px;
   background-color: #ffffff;
@@ -175,8 +181,8 @@
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
-  top: 0px;
-  left: 0px;
+  top: 4px;
+  left: 4px;
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -188,7 +194,7 @@
 <body>
   <div class="copy">
     <center>
-    <img src="https://github.com/emgregor/MyFiles/blob/master/Logo%20Lockup.png?raw=true" style="width: 125px; position: relative; top: 10px;">
+    <img src="https://github.com/emgregor/MyFiles/blob/master/Logo%20Lockup.png?raw=true" style="width: 250px; position: relative; top: 40px; margin-bottom: 40px;">
     <h1>Contest</h1>
     <p>Challenge your luck and you could win 1 of 50 bottles of the Wanted or Wanted Girl fragrance*</p>
       <div id="enter">
