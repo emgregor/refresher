@@ -8,7 +8,7 @@
 
  <style type="text/css">
     body {
-      background-image: url('https://raw.githubusercontent.com/emgregor/MyFiles/master/backgroundperfume.jpg');
+      background-image: url('https://raw.githubusercontent.com/emgregor/MyFiles/master/backgroundperfume.jpg?raw=true');
       background-repeat: no-repeat;
       background-color: #ffffff;
       background-size: cover;
@@ -18,9 +18,15 @@
       color: #ffffff;
       height: 100vh;
     }
+    @media (max-width: 479px) {
+      body {
+        font-size: 16px;
+      }
+    }
     h1 {
       font-size: 34px;
       letter-spacing: 1px;
+      font-weight: 700;
       text-transform: uppercase;
       margin: 0 0 0 0;
     }
@@ -33,6 +39,47 @@
     a {
       font-family: futura-pt, sans-serif;
       color: #ffffff;
+    }
+    hr {
+      margin-bottom: 30px;
+      border-width: 1px;
+      border-style: solid;
+      width: 50%;
+    }
+    div.copy {
+      height: 100vh;
+    }
+    div.enter, div.enter a {
+      padding: 8px 12px 8px 12px;
+      border: 3px solid #ffffff;
+      background-color: rgba(0,0,0,0.2);
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    div.form {
+      margin-right: auto;
+      margin-left: auto;
+      width: 75%;
+      position: relative;
+      top: 30px;
+      height: 100vh;
+      background-color: #F7F7F7;
+    }
+    input[type="checkbox"] {
+      display: inline-block;
+      width: 15px;
+      vertical-align: ;
+    }
+    .label-text {
+      display: inline-block;
+      width: 200px;
+      word-break: break-all; 
+    }
+    span.label {
+      font-family: futura-pt, sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 1;
     }
     input {
       width: 100%;
@@ -70,63 +117,31 @@
       color: #ffffff;
       font-weight: 400;
     }
-    
-    div.form {
-      margin-right: auto;
-      margin-left: auto;
-      width: 75%;
-    }
-    input[type="checkbox"] {
-      display: inline-block;
-      width: 15px;
-      vertical-align: ;
-    }
-    .label-text {
-      display: inline-block;
-      width: 200px;
-      word-break: break-all; 
-    }
-    span.label {
-      font-family: futura-pt, sans-serif;
-      font-weight: 400;
-      font-size: 13px;
-      line-height: 1;
-    }
-    div.form {
-      position: relative;
-      top: 30px;
-    }
-    hr {
-      margin-bottom: 30px;
-      border-width: 1px;
-      border-style: solid;
-      width: 50%;
-    }
-    
-    @media (max-width: 479px) {
-      body {
-        font-size: 16px;
-      }
-    }
   </style>
   
 </head>
 <body>
   <div class="copy">
     <center>
-    <img src="https://github.com/emgregor/MyFiles/blob/master/transparent%20logo%20white.png?raw=true" style="width: 125px; position: relative; top: 10px;">
-    <hr>
+    <img src="https://github.com/emgregor/MyFiles/blob/master/Logo%20Lockup.png?raw=true" style="width: 125px; position: relative; top: 10px;">
     <h1>Contest</h1>
-    <p>Take a chance to win 1 of 50 bottles of the new fragrance</p>
+    <p>Challenge your luck and you could win 1 of 50 bottles of the Wanted or Wanted Girl fragrance*</p>
+      <div id="enter">
+        <a href="#form">Tap to Enter</a>
+      </div>
     </center>
   </div>
-  <div class="form">
+  <div class="form" id="form">
   <form action="https://getform.io/f/007e404c-ce46-4969-886a-1723e61f300c" method="post">
-      <input type="text" class="text" name="full-name" placeholder="Full name" required>
+      <input type="text" class="text" name="first-name" placeholder="First name" required>
+      <input type="text" class="text" name="last-name" placeholder="Last name" required>
       <input type="email" class="text" name="email" placeholder="Email" required>
+      <input type="radio" name="gender" value="male"> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other
       <input type="checkbox" name="rules" value="read-agree"><span class="label"> I have read and agree to the contest rules.</span><br>
       <input type="checkbox" name="newsletter" value="newsletter-y"><span class="label"> I accept to receive news from Azzaro. I can unsubscribe at any time.</span><br><br>
-      <button class="button">Submit</button>
+      <button class="button">Send</button>
   </form>
   </div>
 </body>
