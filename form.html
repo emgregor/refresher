@@ -57,10 +57,15 @@
       font-size: 20px;
       font-weight: 700;
     }
-    div.form {
+    div.form-containter {
       position: relative;
+      width: 100%;
       height: 100vh;
       background-color: #F7F7F7;
+    }
+    div.form {
+      margin: auto;
+      width: 75%;
     }
     input[type="checkbox"] {
       display: inline-block;
@@ -185,24 +190,26 @@
       </div>
     </center>
   </div>
-  <div class="form" id="form">
-    <h1><span style="color: #A7813A">Participate</span></h1>
-  <form action="https://getform.io/f/007e404c-ce46-4969-886a-1723e61f300c" method="post">
-      <input type="text" class="text" name="first-name" placeholder="First name" required>
-      <input type="text" class="text" name="last-name" placeholder="Last name" required>
-      <input type="email" class="text" name="email" placeholder="Email" required>
-      <label class="container">Male
-        <input type="checkbox" checked="checked">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">Female
-        <input type="checkbox">
-        <span class="checkmark"></span>
-      </label>
-      <input type="checkbox" name="rules" value="read-agree"><span class="label"> I have read and agree to the contest rules.</span><br>
-      <input type="checkbox" name="newsletter" value="newsletter-y"><span class="label"> I accept to receive news from Azzaro. I can unsubscribe at any time.</span><br><br>
-      <button class="button">Send</button>
-  </form>
+  <div class="form-container" id="form">
+    <h1><span style="color: #A7813A; margin-bottom: 30px;">Participate</span></h1>
+    <div class="form">
+      <form action="https://getform.io/f/007e404c-ce46-4969-886a-1723e61f300c" method="post">
+        <input type="text" class="text" name="first-name" placeholder="First name" required>
+        <input type="text" class="text" name="last-name" placeholder="Last name" required>
+        <input type="email" class="text" name="email" placeholder="Email" required>
+        <label class="container">Male
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">Female
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <input type="checkbox" name="rules" value="read-agree"><span class="label"> I have read and agree to the contest rules.</span><br>
+        <input type="checkbox" name="newsletter" value="newsletter-y"><span class="label"> I accept to receive news from Azzaro. I can unsubscribe at any time.</span><br><br>
+        <button class="button">Send</button>
+      </form>
+    </div>
   </div>
 </body>
 </html>
