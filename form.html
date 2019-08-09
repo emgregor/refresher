@@ -42,7 +42,7 @@
       top: 40px;
    }
     div.hero {
-      position: absolute;
+      position: relative;
       height: 100vh;
       background-image: url('https://raw.githubusercontent.com/emgregor/MyFiles/master/backgroundperfume.jpg?raw=true');
       background-repeat: no-repeat;
@@ -148,57 +148,12 @@
   -ms-user-select: none;
   user-select: none;
 }
-/* Hide the browser's default radio button */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
 
-/* Create a custom radio button */
-.radio {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 12px;
-  width: 12px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  border: 1px solid #A7813A;
-}
-
-/* When the radio button is checked, add a background */
-.container input:checked ~ .radio {
-  background-color: #A7813A;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.radio:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .radio:after {
-  display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.container .radio:after {
-  top: 4px;
-  left: 4px;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: #ffffff;
-}
   </style>
   
 </head>
 <body>
+  
   <div class="hero">
     <center>
     <img src="https://github.com/emgregor/MyFiles/blob/master/Logo%20Lockup.png?raw=true" class="logo">
@@ -211,19 +166,20 @@
       </center>
     </div>
   </div>
+  
   <div class="form-container">
     <div class="form">
       <h1><span style="color: #A7813A;" id="form">Participate</span></h1><br>
       <form action="https://getform.io/f/007e404c-ce46-4969-886a-1723e61f300c" method="post">
         <input type="text" class="text" name="first-name" placeholder="First name" required>
         <input type="text" class="text" name="last-name" placeholder="Last name" required>
-        <input type="email" class="text" name="email" placeholder="Email" required><br>
-        <label class="container">Male
-          <input type="radio">
+        <input type="email" class="text" name="email" placeholder="Email" required>
+        <label class="container">
+          <input type="radio">Male
           <span class="radio"></span>
         </label>
-        <label class="container">Female
-          <input type="radio">
+        <label class="container">
+          <input type="radio">Female
           <span class="radio"></span>
         </label>
         <input type="checkbox" name="rules" value="read-agree"><span class="label"> I have read and agree to the contest rules.</span><br>
@@ -232,5 +188,6 @@
       </form>
     </div>
   </div>
+  
 </body>
 </html>
