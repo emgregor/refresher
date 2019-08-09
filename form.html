@@ -5,6 +5,19 @@
   <link rel="stylesheet" href="https://use.typekit.net/fyj1toi.css">
   <link rel="stylesheet" type="text/css" href="css/formstyle.css">
   <title>Azzaro: Wanted</title>
+  <script>
+    $(window).load(function () {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+    });
+    $('.hover_bkgr_fricc').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
+  </script>
 </head>
 <body>
   
