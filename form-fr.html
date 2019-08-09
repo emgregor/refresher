@@ -6,6 +6,9 @@
   <link rel="stylesheet" type="text/css" href="css/formstyle.css">
   <link rel="stylesheet" type="text/css" href="css/formstylefr.css">
   <title>Azzaro: Wanted</title>
+  <script>
+    $('input[name="gender"]:checked').val();
+  </script>
 </head>
 <body>
   
@@ -31,11 +34,11 @@
         <input type="email" class="text" name="email" placeholder="Adresse courriel" required>
         <div class="radio-button">
           <label class="container">
-            <input type="radio" name="gender" class="radio" id="male">Homme
+            <input type="radio" name="gender" class="radio" value="male">Homme
             <span class="radio"></span>
           </label>
           <label class="container">
-            <input type="radio" name="gender" class="radio" id="female">Femme
+            <input type="radio" name="gender" class="radio" value="female">Femme
             <span class="radio"></span>
           </label>
         </div>
