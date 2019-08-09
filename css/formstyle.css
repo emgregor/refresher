@@ -153,6 +153,7 @@ button {
   display: inline;
   position: relative;
   padding-left: 20px;
+  padding-right: 10px;
   margin-bottom: 12px;
   font-size: 2.5vh;
   font-weight: 300;
