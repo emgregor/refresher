@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, intitial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="form-style.css">
   <link rel="stylesheet" href="https://use.typekit.net/fyj1toi.css">
   <title>Azzaro: Wanted</title>
@@ -193,6 +194,10 @@
   border-radius: 50%;
   background: #ffffff;
 }
+   div.radio-button {
+     position: relative;
+     margin-top: 10px;
+   }
   </style>
   
 </head>
@@ -218,14 +223,16 @@
         <input type="text" class="text" name="first-name" placeholder="First name" required>
         <input type="text" class="text" name="last-name" placeholder="Last name" required>
         <input type="email" class="text" name="email" placeholder="Email" required>
-        <label class="container">
-          <input type="radio">Male
-          <span class="radio"></span>
-        </label>
-        <label class="container">
-          <input type="radio">Female
-          <span class="radio"></span>
-        </label>
+        <div class="radio-button">
+          <label class="container">
+            <input type="radio">Male
+            <span class="radio"></span>
+          </label>
+          <label class="container">
+            <input type="radio">Female
+            <span class="radio"></span>
+          </label>
+        </div>
         <input type="checkbox" name="rules" value="read-agree"><span class="label"> I have read and agree to the contest rules.</span><br>
         <input type="checkbox" name="newsletter" value="newsletter-y"><span class="label"> I accept to receive news from Azzaro. I can unsubscribe at any time.</span><br><br>
         <button class="button">Send</button>
