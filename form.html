@@ -46,9 +46,13 @@
       position: relative;
       top: 40px;
    }
-    div.copy {
+    div.hero {
       height: 100vh;
     }
+    div.copy {
+      position: relative;
+      margin-top: 50px;
+   }
     div.enter {
       padding: 8px 12px 8px 12px;
       border: 1px solid #ffffff;
@@ -192,19 +196,21 @@
   
 </head>
 <body>
-  <div class="copy">
+  <div class="hero">
     <center>
     <img src="https://github.com/emgregor/MyFiles/blob/master/Logo%20Lockup.png?raw=true" class="logo">
-    <h1 style="padding-top: 40px;">Contest</h1>
-    <p>Challenge your luck and you could win 1 of 50 bottles of the Wanted or Wanted Girl fragrance*</p>
-      <div class="enter">
-        <a href="#form">Tap to Enter</a>
-      </div>
-    </center>
+    <div class="copy">
+      <h1 style="padding-top: 40px;">Contest</h1>
+      <p>Challenge your luck and you could win 1 of 50 bottles of the Wanted or Wanted Girl fragrance*</p>
+        <div class="enter">
+          <a href="#form">Tap to Enter</a>
+        </div>
+      </center>
+    </div>
   </div>
   <div class="form-container">
     <div class="form">
-      <h1><span style="color: #A7813A;" id="form">Participate</span></h1>
+      <h1><span style="color: #A7813A;" id="form">Participate</span></h1><br>
       <form action="https://getform.io/f/007e404c-ce46-4969-886a-1723e61f300c" method="post">
         <input type="text" class="text" name="first-name" placeholder="First name" required>
         <input type="text" class="text" name="last-name" placeholder="Last name" required>
