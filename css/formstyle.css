@@ -150,7 +150,7 @@ button {
 }
 /* Radio Labels */
 .container {
-  display: block;
+  display: inline;
   position: relative;
   padding-left: 20px;
   margin-bottom: 12px;
