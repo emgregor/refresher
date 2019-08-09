@@ -1,198 +1,261 @@
-    body {
-      font-family: futura-pt, sans-serif;
-      color: #505050;
-      padding: 0;
-      margin: 0;
-    }
-   * {
-      margin: 0;
-   } 
-    @media (max-width: 479px) {
-      body {
-        font-size: 2.5vh;
-      }
-    }
-    h1 {
-      font-size: 5vh;
-      letter-spacing: 2px;
-      font-weight: 500;
-      text-transform: uppercase;
-      margin: 0 0 0 0;
-      color: #ffffff;
-    }
-    p {
-      font-size: 2.7vh;
-      font-weight: 400;
-      width: 45vh;
-      color: #ffffff;
-    }
-   @media (max-width: 376px) {
-     p {
-       width: 41vh;
-     }
-   }
-    a {
-      font-family: futura-pt, sans-serif;
-      color: #ffffff;
-      text-decoration: none;
-    }
-    img.logo {
-      width: 220px;
-      position: relative;
-      top: 40px;
-   }
-    div.hero {
-      position: relative;
-      height: 100vh;
-      background-image: url('https://github.com/emgregor/MyFiles/blob/master/hero-bg-en.png?raw=true');
-      background-repeat: no-repeat;
-      background-color: #ffffff;
-      background-size: cover;
-      background-color: #ffffff;
-      background-position: 50% 100%;
-    }
-    div.copy {
-      position: relative;
-      margin-top: 6.5vh;
-   }
-    div.enter {
-      padding: 8px 12px 8px 12px;
-      border: 2px solid #ffffff;
-      background-color: rgba(74,126,177,0.4);
-      position: relative;
-      top: 9vh;
-      width: 21vh;
-    }
-    div.enter a {
-      text-transform: uppercase;
-      font-size: 2.9vh;
-      font-weight: 500;
-      text-decoration: none;
-      letter-spacing: 1px;
-   }      
-    div.form-container {
-      position: relative;
-      height: 100vh;
-      padding-top: 6.5vh;
-      background-image: url('https://github.com/emgregor/MyFiles/blob/master/form-bg.png?raw=true');
-      background-repeat: no-repeat;
-      background-color: #ffffff;
-      background-size: 60%;
-      background-position: right bottom;
-      background-color: #F7F7F7;
-    }
-    div.form {
-      margin: auto;
-      width: 75%;
-      background-color: transparent;
-      padding-top: 25px;
-    }
+body {
+   font-family: futura-pt, sans-serif;
+   color: #505050;
+   padding: 0;
+   margin: auto;
+   max-width: 500px;
+ }
+* {
+   margin: 0;
+} 
+@media (max-width: 479px) {
+  body {
+    font-size: 2.5vh;
+  }
+}
+h1 {
+  font-size: 5vh;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  color: #ffffff;
+}
+p {
+  font-size: 2.7vh;
+  font-weight: 400;
+  width: 45vh;
+  color: #ffffff;
+}
+@media (max-width: 376px) {
+  p {
+    width: 41vh;
+  }
+}
+a {
+  font-family: futura-pt, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+img.logo {
+  width: 220px;
+    position: relative;
+    top: 40px;
+}
+div.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('https://github.com/emgregor/MyFiles/blob/master/hero-bg-en.png?raw=true');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: cover;
+  background-color: #ffffff;
+  background-position: 50% 100%;
+}
+div.copy {
+  position: relative;
+  margin-top: 6.5vh;
+}
+div.enter {
+  padding: 8px 12px 8px 12px;
+  border: 2px solid #ffffff;
+  background-color: rgba(74,126,177,0.4);
+  position: relative;
+  top: 9vh;
+  width: 21vh;
+}
+div.enter a {
+  text-transform: uppercase;
+  font-size: 2.9vh;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  }      
+div.form-container {
+  position: relative;
+  height: 100vh;
+  padding-top: 6.5vh;
+  background-image: url('https://github.com/emgregor/MyFiles/blob/master/form-bg.png?raw=true');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: 60%;
+  background-position: right bottom;
+  background-color: #F7F7F7;
+}
+div.form {
+  margin: auto;
+  width: 75%;
+  background-color: transparent;
+  padding-top: 25px;
+}
 
 /* Form Styling */
-    input[type="checkbox"] {
-      display: inline-block;
-      width: 15px;
-    }
-    .label-text {
-      display: inline-block;
-      width: 200px;
-      word-break: break-all; 
-    }
-    span.label {
-      font-family: futura-pt, sans-serif;
-      font-weight: 300;
-      font-size: 2vh;
-      line-height: 1;
-    }
-    input {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
-      border: 1px solid #A7813A;
-      border-radius: 5px;
-      color: #505050;
-      font-size: 2.5vh;
-      font-family: futura-pt, sans-serif;
-      background-color: transparent;
-    }
-    button {
-      margin-top: 20px;
-      color: #ffffff;
-      background-color: #A7813A;
-      padding: 10px;
-      margin: 4px 2px;
-      border: 0px;
-      width: 15vh;
-      font-size: 2.9vh;
-      font-family: futura-pt, sans-serif;
-      font-weight: 500;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-    ::-webkit-input-placeholder { /* Edge */
-      color: #505050;
-      font-weight: 300;
-    }
-    :-ms-input-placeholder { /* Internet Explorer 10-11 */
-      color: #505050;
-      font-weight: 300;
-    }
-    ::placeholder {
-      color: #505050;
-      font-weight: 300;
-    }
-   /* Radio Labels */
-   .container {
-     display: block;
-     position: relative;
-     padding-left: 20px;
-     margin-bottom: 12px;
-     font-size: 2.5vh;
-     font-weight: 300;
-     -webkit-user-select: none;
-     -moz-user-select: none;
-     -ms-user-select: none;
-     user-select: none;
-   }
-   .container input {
-     position: absolute;
-     opacity: 0;
-     cursor: pointer;
-     height: 0;
-     width: 0;
-   }
-   .radio {
-     position: absolute;
-     top: 4px;
-     left: 0;
-     height: 12px;
-     width: 12px;
-     background-color: #ffffff;
-     border-radius: 50%;
-     border: 1px solid #A7813A;
-   }
-   .container input:checked ~ .radio {
-     background-color: #A7813A;
-   }
-   .radio:after {
-     content: "";
-     position: absolute;
-     display: none;
-   }
-   .container input:checked ~ .radio:after {
-     display: block;
-   }
-   /* Radio Indicator Styling */
-   .container .radio:after {
-     top: 4px;
-     left: 4px;
-     width: 4px;
-     height: 4px;
-     border-radius: 50%;
-     background: #ffffff;
-   }
-   div.radio-button {
-     position: relative;
-     margin-top: 10px;
-   }
+input[type="checkbox"] {
+  display: inline-block;
+  width: 15px;
+}
+.label-text {
+  display: inline-block;
+  width: 200px;
+  word-break: break-all; 
+}
+span.label {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-size: 2vh;
+  line-height: 1;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #A7813A;
+  border-radius: 5px;
+  color: #505050;
+  font-size: 2.5vh;
+  font-family: futura-pt, sans-serif;
+  background-color: transparent;
+}
+button {
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #A7813A;
+  padding: 10px;
+  margin: 4px 2px;
+  border: 0px;
+  width: 15vh;
+  font-size: 2.9vh;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #505050;
+  font-weight: 300;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #505050;
+  font-weight: 300;
+}
+::placeholder {
+  color: #505050;
+  font-weight: 300;
+}
+/* Radio Labels */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  font-size: 2.5vh;
+  font-weight: 300;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+input.radio {
+  display: inline;
+}
+.radio {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 12px;
+  width: 12px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #A7813A;
+}
+.container input:checked ~ .radio {
+  background-color: #A7813A;
+}
+.radio:after {
+ content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .radio:after {
+  display: block;
+}
+/* Radio Indicator Styling */
+.container .radio:after {
+  top: 4px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+div.radio-button {
+  position: relative;
+  margin-top: 10px;
+}
+
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* Popup box END */
