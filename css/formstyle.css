@@ -21,6 +21,7 @@ h1 {
   text-transform: uppercase;
   margin: 0 0 0 0;
   color: #ffffff;
+  margin-bottom: 1em
 }
 p {
   font-size: 1.7em;
@@ -28,7 +29,6 @@ p {
   font-weight: 400;
   width: 45vh;
   color: #ffffff;
-  padding-top: 10px;
 }
 @media (max-width: 376px) {
   p {
