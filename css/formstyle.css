@@ -89,11 +89,15 @@ div.enter {
 }
 
 svg.button {
-   width: 150px;
+   width: 200px;
    margin: auto;
    display: block;
 }
-
+@media screen and (max-width: 360px) {
+   svg.button {
+      width: 150px;
+   }
+}
 div.form-container {
   position: relative;
   height: 100vh;
