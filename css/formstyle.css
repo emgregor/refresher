@@ -24,8 +24,8 @@ h1 {
   color: #ffffff;
 }
 p {
-  font-size: 1.7em;
-  line-height: 1.7em;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 500;
   width: 45vh;
   color: #ffffff;
@@ -40,11 +40,7 @@ a {
   color: #505050;
   text-decoration: underline;
 }
-a.rules {
-   font-size: 2vh;
-   color: #505050;
-   text-decoration: none;
-}
+
 a#form {
    color: #ffffff;
 }
@@ -104,7 +100,8 @@ div.form {
 /* Form Styling */
 input[type="checkbox"] {
   display: inline-block;
-  width: 15px;
+  width: 10px;
+  background-color: transparent;
 }
 .label-text {
   display: inline-block;
@@ -114,8 +111,8 @@ input[type="checkbox"] {
 span.label {
   font-family: 'EB Garamond', serif;
   font-weight: 400;
-  font-size: 1.3em;
-  line-height: 1.5em;
+  font-size: 16px;
+  line-height: 24px;
 }
 input {
   width: 100%;
@@ -125,7 +122,7 @@ input {
   border: 1px solid #A7813A;
   border-radius: 5px;
   color: #505050;
-  font-size: 2.5vh;
+  font-size: 16px;
   font-family: 'EB Garamond', serif;
   font-weight: 400;
   background-color: transparent;
@@ -146,16 +143,16 @@ button {
   text-transform: uppercase;
 }
 ::-webkit-input-placeholder { /* Edge */
-  color: #505050;
-  font-weight: 300;
+  color: #aaaaaa;
+  font-weight: 3400;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #505050;
-  font-weight: 300;
+  color: #aaaaaa;
+  font-weight: 400;
 }
 ::placeholder {
-  color: #505050;
-  font-weight: 300;
+  color: #aaaaaa;
+  font-weight: 400;
 }
 /* Radio Labels */
 .container {
@@ -164,8 +161,8 @@ button {
   padding-left: 20px;
   padding-right: 10px;
   margin-bottom: 12px;
-  font-size: 2.5vh;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
