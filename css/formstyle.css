@@ -100,7 +100,7 @@ div.form {
 /* Form Styling */
 input[type="checkbox"] {
   display: inline-block;
-  width: 10px;
+  width: 15px;
   background-color: transparent;
 }
 .label-text {
