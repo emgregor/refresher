@@ -1,5 +1,5 @@
 body {
-   font-family: futura-pt, sans-serif;
+   font-family: 'EB Garamond', serif;
    color: #505050;
    padding: 0;
    margin: auto;
@@ -14,6 +14,7 @@ body {
   }
 }
 h1 {
+  font-family: futura-pt, sans-serif;
   font-size: 5vh;
   letter-spacing: 2px;
   font-weight: 500;
