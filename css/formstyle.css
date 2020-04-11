@@ -64,7 +64,7 @@ div.copy {
   position: relative;
   margin-top: 6.5vh;
 }
-div.enter {
+/* div.enter {
   padding: 8px 12px 8px 12px;
   border: 2px solid #ffffff;
   border-radius: 5px;
@@ -81,6 +81,19 @@ div.enter a {
   letter-spacing: 1px;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   }      
+*/
+
+div.enter {
+   position: relative;
+   top: 9vh;
+}
+
+img.button {
+   width: 150px;
+   margin: auto;
+   display: block;
+}
+
 div.form-container {
   position: relative;
   height: 100vh;
