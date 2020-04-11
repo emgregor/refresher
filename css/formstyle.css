@@ -35,7 +35,7 @@ p {
   }
 }
 a {
-  font-family: futura-pt, sans-serif;
+  font-family: 'EB Garamond', serif;
   color: #505050;
   text-decoration: underline;
 }
@@ -143,7 +143,7 @@ input {
   border-radius: 5px;
   color: #505050;
   font-size: 2.5vh;
-  font-family: futura-pt, sans-serif;
+  font-family: 'EB Garamond', serif;
   background-color: transparent;
 }
 button {
