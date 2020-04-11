@@ -1,5 +1,6 @@
 body {
    font-family: 'EB Garamond', serif;
+   font-weight: 400;
    color: #505050;
    padding: 0;
    margin: auto;
@@ -24,8 +25,8 @@ h1 {
 }
 p {
   font-size: 1.7em;
-  line-height: 1.9em;
-  font-weight: 400;
+  line-height: 1.7em;
+  font-weight: 500;
   width: 45vh;
   color: #ffffff;
 }
@@ -66,24 +67,6 @@ div.copy {
   position: relative;
   margin-top: 6.5vh;
 }
-/* div.enter {
-  padding: 8px 12px 8px 12px;
-  border: 2px solid #ffffff;
-  border-radius: 5px;
-  background-color: rgba(74,126,177,0.4);
-  position: relative;
-  top: 9vh;
-  width: 21vh;
-}
-div.enter a {
-  text-transform: uppercase;
-  font-size: 2.9vh;
-  font-weight: 500;
-  text-decoration: none;
-  letter-spacing: 1px;
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-  }      
-*/
 
 div.enter {
    position: relative;
@@ -130,7 +113,7 @@ input[type="checkbox"] {
 }
 span.label {
   font-family: 'EB Garamond', serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.3em;
   line-height: 1.5em;
 }
@@ -144,6 +127,7 @@ input {
   color: #505050;
   font-size: 2.5vh;
   font-family: 'EB Garamond', serif;
+  font-weight: 400;
   background-color: transparent;
 }
 button {
